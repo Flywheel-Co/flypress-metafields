@@ -1,0 +1,27 @@
+{
+  "name": "flypress-metafields",
+  "version": "0.0.0",
+  "description": "Metafield and Metainput functionality for the Flypress ecosystem",
+  "main": "src/index.js",
+  "scripts": {
+    "release": "release-it --github.release",
+    "postinstall": "husky install",
+    "prepublish": "pinst --disable",
+    "postpublish": "pinst --enable"
+  },
+  "author": "Flywheel Co. <dev@flywheel.co>",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "2.x"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^2.0.0",
+    "husky": "^5.0.4",
+    "pinst": "^2.1.1",
+    "prettier": "^2.2.0",
+    "pretty-quick": "^3.1.0",
+    "release-it": "^14.2.1"
+  }
+}
