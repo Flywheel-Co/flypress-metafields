@@ -1,0 +1,45 @@
+.metafield {
+  margin: 3em 0 0;
+  padding: 3em 0 0;
+  border-top: 1px solid $fpmf-color-border;
+  display: flex;
+
+  &:first-of-type {
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  &__desc {
+    flex-basis: 12em;
+    width: 12em;
+    max-width: 12em;
+    min-width: 12em;
+    padding-right: 2em;
+
+    label {
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 0.8em;
+      margin: 0;
+      color: $fpmf-color-medium;
+    }
+  }
+
+  &__body {
+    flex-grow: 1;
+    width: 1em;
+
+    &> p {
+      font-size: .8em;
+      margin: 0.5em 0 0;
+
+      code {
+        font-size: 0.9em;
+      }
+    }
+  }
+
+}
