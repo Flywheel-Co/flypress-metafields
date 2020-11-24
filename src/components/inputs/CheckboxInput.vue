@@ -1,7 +1,9 @@
 <template>
   <p :class="wrapperClass">
     <input type="checkbox" :name="name" :value="value" v-model="isChecked" :id="id">
-    <label v-if="label" :for="id" v-html="label"></label>
+    <label v-if="label" :for="id">
+      <template v-if="label !== true">{{ label }}</template>
+    </label>
   </p>
 </template>
 

@@ -9,6 +9,7 @@ import TelInput from './TelInput.vue';
 import TextareaInput from './TextareaInput.vue';
 import TextInput from './TextInput.vue';
 import TimeInput from './TimeInput.vue';
+import ToggleInput from './ToggleInput.vue';
 import UrlInput from './UrlInput.vue';
 
 export default {
@@ -23,5 +24,6 @@ export default {
   TextareaInput,
   TextInput,
   TimeInput,
+  ToggleInput,
   UrlInput,
 }

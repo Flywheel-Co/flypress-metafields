@@ -1,0 +1,55 @@
+.metainput__checkbox,
+.metainput__radio {
+  label {
+    font-size: .933em;
+  }
+}
+
+.metainput--toggle {
+  margin-top: -8px;
+
+  input {
+    width: 0;
+    height: 0;
+    max-width: 0;
+    max-height: 0;
+    visibility: hidden;
+    transform: translate(-100%, -100%);
+  }
+
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    background: $fpmf-color-white;
+    display: block;
+    margin: -16px 0 0;
+    border-radius: 12px;
+    position: relative;
+    border: 1px solid $fpmf-color-border;
+    width: 48px;
+    height: 24px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      transition: 0.2s;
+      border-radius: 1.6em;
+      box-shadow: 1px 1px 2px rgba($fpmf-color-black, 0.02);
+      background: $fpmf-color-border;
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  input:checked + label {
+    border-color: $fpmf-color-blue;
+
+    &:after {
+      background: $fpmf-color-blue;
+      left: 46px;
+      transform: translateX(-100%);
+    }
+  }
+}
