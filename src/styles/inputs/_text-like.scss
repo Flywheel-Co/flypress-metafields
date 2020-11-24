@@ -1,0 +1,42 @@
+.metainput input {
+
+  &[type="text"],
+  &[type="password"],
+  &[type="date"],
+  &[type="datetime-local"],
+  &[type="email"],
+  &[type="month"],
+  &[type="number"],
+  &[type="search"],
+  &[type="tel"],
+  &[type="time"],
+  &[type="url"],
+  &[type="week"],
+  &[type="search"],
+  textarea {
+    max-width: 36rem;
+    width: 100%;
+  }
+
+  &[type='email'],
+  &[type='url'] {
+    font-family: $fpmf-font-family-monospace;
+    font-size: 0.96em;
+  }
+
+  &[type='date'],
+  &[type='time'],
+  &[type='datetime-local'] {
+    max-width: 12em;
+  }
+
+  &[type='color'] {
+    width: 2em;
+    height: 2em;
+  }
+
+  &[type='checkbox'] {
+    width: auto;
+  }
+
+}
