@@ -18,24 +18,27 @@
     width: 100%;
   }
 
-  &[type='email'],
-  &[type='url'] {
+  &[type="email"],
+  &[type="url"] {
     font-family: $fpmf-font-family-monospace;
     font-size: 0.96em;
   }
 
-  &[type='date'],
-  &[type='time'],
-  &[type='datetime-local'] {
+  &[type="date"],
+  &[type="time"] {
     max-width: 12em;
   }
 
-  &[type='color'] {
+  &[type="datetime-local"] {
+    max-width: 16em;
+  }
+
+  &[type="color"] {
     width: 2em;
     height: 2em;
   }
 
-  &[type='checkbox'] {
+  &[type="checkbox"] {
     width: auto;
   }
 

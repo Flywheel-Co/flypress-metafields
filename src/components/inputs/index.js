@@ -1,19 +1,19 @@
-import TextInput from './TextInput.vue';
-import UrlInput from './UrlInput.vue';
-import TelInput from './TelInput.vue';
+import DateInput from './DateInput.vue';
+import DatetimeInput from './DatetimeInput.vue';
 import EmailInput from './EmailInput.vue';
 import NumberInput from './NumberInput.vue';
-import DateInput from './DateInput.vue';
+import TelInput from './TelInput.vue';
+import TextInput from './TextInput.vue';
 import TimeInput from './TimeInput.vue';
-import DatetimeInput from './DatetimeInput.vue';
+import UrlInput from './UrlInput.vue';
 
 export default {
-  TextInput,
-  UrlInput,
-  TelInput,
+  DateInput,
+  DatetimeInput,
   EmailInput,
   NumberInput,
-  DateInput,
+  TelInput,
+  TextInput,
   TimeInput,
-  DatetimeInput,
+  UrlInput,
 }
