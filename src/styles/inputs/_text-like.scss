@@ -13,7 +13,7 @@
   &[type="url"],
   &[type="week"],
   &[type="search"],
-  textarea {
+  {
     max-width: 36rem;
     width: 100%;
   }
@@ -42,4 +42,10 @@
     width: auto;
   }
 
+}
+
+
+.metainput textarea {
+  max-width: 36rem;
+  width: 100%;
 }
