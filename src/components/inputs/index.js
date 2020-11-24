@@ -5,6 +5,7 @@ import EmailInput from './EmailInput.vue';
 import NumberInput from './NumberInput.vue';
 import DateInput from './DateInput.vue';
 import TimeInput from './TimeInput.vue';
+import DatetimeInput from './DatetimeInput.vue';
 
 export default {
   TextInput,
@@ -14,4 +15,5 @@ export default {
   NumberInput,
   DateInput,
   TimeInput,
+  DatetimeInput,
 }
