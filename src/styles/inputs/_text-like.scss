@@ -12,8 +12,7 @@
   &[type="time"],
   &[type="url"],
   &[type="week"],
-  &[type="search"],
-  {
+  &[type="search"] {
     max-width: 36rem;
     width: 100%;
   }
@@ -37,11 +36,6 @@
     width: 2em;
     height: 2em;
   }
-
-  &[type="checkbox"] {
-    width: auto;
-  }
-
 }
 
 
