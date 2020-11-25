@@ -13,7 +13,7 @@
 
     props: {
       selected: {
-        type: [Boolean, Number],
+        type: [Boolean, Number, String],
         default: false,
       },
     },
