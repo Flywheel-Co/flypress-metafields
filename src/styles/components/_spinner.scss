@@ -1,0 +1,16 @@
+.metainput__spinner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 20px;
+
+  .spinner {
+    float: none;
+    margin: 0;
+  }
+
+  span {
+    color: #a6a6a6;
+    margin-left: 6px;
+  }
+}
