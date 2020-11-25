@@ -15,7 +15,7 @@
     props: {
 
       value: {
-        required: true,
+        default: null,
       },
 
       type: {

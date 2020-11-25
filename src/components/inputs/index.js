@@ -1,4 +1,5 @@
 import CheckboxInput from './CheckboxInput.vue';
+import ChooserInput from './ChooserInput.vue';
 import ColorInput from './ColorInput.vue';
 import DateInput from './DateInput.vue';
 import DatetimeInput from './DatetimeInput.vue';
@@ -14,6 +15,7 @@ import UrlInput from './UrlInput.vue';
 
 export default {
   CheckboxInput,
+  ChooserInput,
   ColorInput,
   DateInput,
   DatetimeInput,
