@@ -1,6 +1,38 @@
+.metamedia {
+  &__actions {
+    margin-left: -4px;
+  }
+
+  &__action {
+    font-size: .8em;
+    text-transform: uppercase;
+    padding: 3px;
+    border-style: solid;
+    border-width: 1px;
+    background: $fpmf-color-lighter;
+    padding: 3px 6px;
+    text-decoration: none;
+    margin-left: 4px;
+    border-radius: 3px;
+
+    &:hover {
+      background: $fpmf-color-white;
+      color: $fpmf-color-blue;
+    }
+
+    &--reset {
+      color: $fpmf-color-red;
+
+      &:hover {
+        color: darken($fpmf-color-red, 10);
+      }
+    }
+  }
+}
+
+
 .metainput--media {
   .metamedia {
-
     &__preview {
       border: 1px solid $fpmf-color-border-darker;
       display: flex;
@@ -62,35 +94,42 @@
         transform: translateX(-50%);
       }
     }
+  }
+}
 
-    &__actions {
-      margin-left: -4px;
-    }
+.metainput--image {
+  .metamedia {
 
-    &__action {
-      font-size: .8em;
-      text-transform: uppercase;
-      padding: 3px;
-      border-style: solid;
-      border-width: 1px;
-      background: $fpmf-color-lighter;
-      padding: 3px 6px;
-      text-decoration: none;
-      margin-left: 4px;
-      border-radius: 3px;
+    &__preview {
+      margin-bottom: .75rem;
+      max-width: 36rem;
 
-      &:hover {
-        background: $fpmf-color-white;
-        color: $fpmf-color-blue;
-      }
+      &__image {
+        display: block;
+        margin: 0;
+        padding: 0.25em;
+        border: 1px solid $fpmf-color-border-darker;
+        box-sizing: border-box;
+        max-width: 100%;
 
-      &--reset {
-        color: $fpmf-color-red;
+        &--hasRatio {
+          background-position: 50% 50%;
+          border: calc(.25em + 1px) solid $fpmf-color-white;
+          position: relative;
+          max-height: 0;
 
-        &:hover {
-          color: darken($fpmf-color-red, 10);
+          &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            border: 1px solid $fpmf-color-border-darker;
+          }
         }
       }
     }
+
   }
 }

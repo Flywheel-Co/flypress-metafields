@@ -4,6 +4,7 @@ import ColorInput from './ColorInput.vue';
 import DateInput from './DateInput.vue';
 import DatetimeInput from './DatetimeInput.vue';
 import EmailInput from './EmailInput.vue';
+import ImageInput from './ImageInput.vue';
 import MediaInput from './MediaInput.vue';
 import NumberInput from './NumberInput.vue';
 import RadioInput from './RadioInput.vue';
@@ -23,6 +24,7 @@ export default {
   DateInput,
   DatetimeInput,
   EmailInput,
+  ImageInput,
   MediaInput,
   NumberInput,
   RadioInput,
