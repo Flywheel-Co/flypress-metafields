@@ -6,6 +6,7 @@ import DatetimeInput from './DatetimeInput.vue';
 import EmailInput from './EmailInput.vue';
 import NumberInput from './NumberInput.vue';
 import RadioInput from './RadioInput.vue';
+import RangeInput from './RangeInput.vue';
 import TelInput from './TelInput.vue';
 import TextareaInput from './TextareaInput.vue';
 import TextInput from './TextInput.vue';
@@ -22,6 +23,7 @@ export default {
   EmailInput,
   NumberInput,
   RadioInput,
+  RangeInput,
   TelInput,
   TextareaInput,
   TextInput,
