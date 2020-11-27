@@ -1,6 +1,6 @@
 {
   "name": "flypress-metafields",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Metafield and Metainput functionality for the Flypress ecosystem",
   "main": "src/index.js",
   "scripts": {

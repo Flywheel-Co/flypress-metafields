@@ -1,3 +1,5 @@
+### [0.1.1](https://github.com/Flywheel-Co/flypress-metafields/compare/v0.1.0...v0.1.1) (2020-11-27)
+
 ## 0.1.0 (2020-11-27)
 
 
