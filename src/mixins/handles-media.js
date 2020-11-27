@@ -44,7 +44,7 @@ export default {
 
   computed: {
     endpoint() {
-      const base = this.$metafieldOptions.api_base || '/wp-json/';
+      const base = flypress.apiBaseUrl || '/wp-json/';
 
       return base + 'wp/v2/media/';
     },

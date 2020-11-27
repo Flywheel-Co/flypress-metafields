@@ -5,7 +5,5 @@ export default {
   install(Vue, options) {
     Vue.component('metafield', Metafield);
     Vue.component('metainput', Metainput);
-
-    Vue.prototype.$metafieldOptions = options;
   }
 }
