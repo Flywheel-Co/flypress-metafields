@@ -3,6 +3,7 @@ import ChooserInput from './ChooserInput.vue';
 import ColorInput from './ColorInput.vue';
 import DateInput from './DateInput.vue';
 import DatetimeInput from './DatetimeInput.vue';
+import EditorInput from './EditorInput.vue';
 import EmailInput from './EmailInput.vue';
 import ImageInput from './ImageInput.vue';
 import MediaInput from './MediaInput.vue';
@@ -23,6 +24,7 @@ export default {
   ColorInput,
   DateInput,
   DatetimeInput,
+  EditorInput,
   EmailInput,
   ImageInput,
   MediaInput,
